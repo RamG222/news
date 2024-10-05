@@ -1,0 +1,57 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#news-list {
+    width: 100%;
+    max-width: 900px;
+}
+
+.article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.article p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.article .date {
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
